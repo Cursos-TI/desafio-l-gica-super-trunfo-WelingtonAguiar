@@ -179,7 +179,7 @@ int main() {
     // Mostra os valores antes da compração.
     printf("OS valores informados foram: \n\n");
     printf("Carta 1 - %s: %lu\n", nome_da_cidade1, populacao1);
-    printf("Carta 1 - %s: %lu\n\n", nome_da_cidade2, populacao2);
+    printf("Carta 2 - %s: %lu\n\n", nome_da_cidade2, populacao2);
 
     // Lógica para definir o ganhador da partida, tendo como atributo escolhido POPULAÇÃO. O maior valor é o vencedor.
     if (populacao1 > populacao2){
